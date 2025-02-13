@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.article {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.article-title {
+    font-size: 24px;
+    margin: 15px 0 10px;
+}
+
+.article-category {
+    color: #555;
+    font-style: italic;
+    margin: 0;
+}
+
+.article-content {
+    line-height: 1.6;
+    color: #333;
+}
+
+.editors-pick {
+    display: block;
+    margin-bottom: 50px;/
+}
+
+.editor-pick {
+    display: flex;
+    align-items: center;
+    /* Căn giữa logo và chữ */
+}
+
+.editor-pick-logo {
+    width: 30px;
+    /* Kích thước tùy chỉnh */
+    height: auto;
+    /* Tự động điều chỉnh chiều cao */
+    margin-right: 8px;
+    /* Khoảng cách giữa logo và chữ */
+}
